@@ -1,4 +1,1 @@
-print("a. monger....")
-print("susma")
-print("new test")
-print("yay!")
+print("what the fuck is up among us gamers.")

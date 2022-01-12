@@ -1,7 +1,7 @@
 function harvest_row()
-    for heightIndex = 1, 2 do
+    for heightIndex = 0, 1 do
         for rowIndex=0, 3 do
-            itemSel = (rowIndex * 2 * heightIndex) + 1
+            itemSel = (rowIndex * 2) + (heightIndex * 4) + 1
             for cropIndex=1, 4 do
                 for i=1, 2 do --one for down, one for forward
                     turtle.select(itemSel)

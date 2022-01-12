@@ -23,7 +23,7 @@ function harvest_row()
 
                     turtle.select(itemSel)
 
-                    if (i == 1 and heightIndex == 1) or (i == 2 and heightIndex == 2) then
+                    if (i == 1 and heightIndex == 0) or (i == 2 and heightIndex == 1) then
                         turtle.turnLeft()
                     else
                         turtle.turnRight()

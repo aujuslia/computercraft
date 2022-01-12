@@ -57,6 +57,7 @@ function harvest_row()
             turtle.turnLeft()
             turtle.forward()
             turtle.down()
+            turtle.down()
             turtle.turnLeft()
             turtle.turnLeft()
             empty()
@@ -65,6 +66,7 @@ function harvest_row()
                 turtle.forward()
             end
             turtle.turnRight()
+            turtle.forward()
             turtle.forward()
         end
     end

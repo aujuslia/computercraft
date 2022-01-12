@@ -34,7 +34,7 @@ function harvest_row()
             turtle.forward()
         end
 
-        if heightIndex == 1 then
+        if heightIndex == 0 then
             turtle.up()
             turtle.up()
             turtle.turnLeft()

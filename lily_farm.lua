@@ -33,6 +33,16 @@ function harvest_row()
             end
             turtle.forward()
         end
+
+        if heightIndex == 1 then
+            turtle.up()
+            turtle.up()
+            turtle.turnLeft()
+            turtle.forward()
+            turtle.forward()
+            turtle.turnLeft()
+            turtle.forward()
+        end
     end
 end
 
